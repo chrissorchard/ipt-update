@@ -1,16 +1,10 @@
-malucrawl
-=========
+ipt-update
+==========
 
-GDP 23: Trending Terms Malware Crawler
+A Simple iptables profiling script
 
-Project Layout
---------------
+Warning
+-------
 
-Tha django project settings are in /malucrawl, and the application /malware_crawl contains the tasks, routing and schema.
-
-To start the Celery workers: see http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html#starting-the-worker-process
-
-Required Packages
------------------
-
-lessc git build-essential python-dev python-pip redis-server rabbitmq-server
+This script is designed to work on Red Hat, and as such will probably not work
+on anything that isn't RHEL/Fedora/Centos.
